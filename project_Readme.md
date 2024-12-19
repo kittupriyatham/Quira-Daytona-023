@@ -54,7 +54,7 @@ Hello everyone, this is a machine learning model deployment project where we hav
 
 ## Repo Visualization
 
-![Visualization of the codebase](./diagram.svg)
+![Visualization of the codebase](static/images/diagram.svg)
 
 ## Screenshots of deployed project
 ### V1
@@ -87,18 +87,22 @@ Hello everyone, this is a machine learning model deployment project where we hav
 
 ![image](static/images/image-4.png)
 
+### V4
+
+Changed background colour of dashboard to match other pages.
+
+![image](static/images/img.png)
+
+
+Note: Dashboard pages are zoomed out to 75%
 
 ## Steps to Deploy in Azure App Service
 
-### Method 1
-
-Using static deployment:
+### Using static deployment
 
 To be updated soon...
 
 
-### Method 2
-
-Using Dynamic and CI/CD deployment:
+### Using Dynamic and CI/CD deployment
 
 To be updated soon...
