@@ -15,11 +15,11 @@
 	 "postCreateCommand": "pip3 install -r requirements.txt",
 
 	// Configure tool-specific properties.
-  "customizations" : {
-    "jetbrains" : {
-      "backend" : "PyCharm"
-    }
-  },
+//  "customizations" : {
+//    "jetbrains" : {
+//      "backend" : "PyCharm"
+//    }
+//  },
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	 "remoteUser": "root"
