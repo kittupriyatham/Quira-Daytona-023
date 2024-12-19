@@ -1,62 +1,56 @@
 # Machine Learning Model Deployment
+
 ## Iris Classification
 
-Hello everyone, this is a machine learning model deployment project where we have presented the Iris classification model in an elegant basic minimal ui using flask web framework and deployed it in Azure cloud using Azure app service. 
-    We initially made the notebook file, with model code and some data preperations (preprocessing). Then we have took some chunks of code and put the necessary in web project. Then we have deployed it into Azure app service. 
-    We initially made this project as a requirement for an internship at Indian Servers. We are now making it open to contribution. 
-    
-    
+Hello everyone, this is a machine learning model deployment project where we have presented the Iris classification model in an elegant basic minimal ui using flask web framework and deployed it in Azure cloud using Azure app service.
+    We initially made the notebook file, with model code and some data preperations (preprocessing). Then we have took some chunks of code and put the necessary in web project. Then we have deployed it into Azure app service.
+    We initially made this project as a requirement for an internship at Indian Servers. We are now making it open to contribution.
+
 ### Authors :
-    
-    Tejaswi Talluru - Machine Learning Model.
+
+    Tejaswi Talluru - Machine Learning Model in jupyter notebook.
     Krishna Priyatham Potluri - Flask Web Project and Azure Deployment.  (Myself)
-    
+
 ### Contributors :
 
     Busam Divya Prakash - Updated UI and added data visualization using tableau.
     Rishabh Chauhan - Changed home page and shifted previous home page to prediction page.
-   
-   ____________________________________________________
-  
-  ## Step by step guide to run, contribute, test in local machine.
+
+---
+
+## Step by step guide to run, contribute, test in local machine.
 
 1. clone this repo into desired location in your system using command:
 
-        git clone https://github.com/kittupriyatham/Machine-Learning-Model-Deployment.git
- 
+   git clone https://github.com/kittupriyatham/Machine-Learning-Model-Deployment.git
 2. Go to the project folder using command:
 
-        cd Machine-Learning-Model-Deployment
-
+   cd Machine-Learning-Model-Deployment
 3. Initialize local repository using command:
 
-        git init
-
+   git init
 4. create a python virtual environment using command:
 
-        python -m venv venv
-
+   python -m venv venv
 5. activate the virtual environment using command:
 
-        venv\Scripts\activate
+   venv\Scripts\activate
+6. Install the project dependancies using command:
 
-6.  Install the project dependancies using command:
-
-        pip install -r requirements.txt
-
+   pip install -r requirements.txt
 7. launch the flask server using command:
 
-        flask run
- 
+   flask run
 8. if above command does not work to initiate app, use the following one:
 
-        python app.py
+   python app.py
 
 ## Repo Visualization
 
 ![Visualization of the codebase](static/images/diagram.svg)
 
 ## Screenshots of deployed project
+
 ### V1
 
 ![image](https://user-images.githubusercontent.com/5558263/131238779-ae486149-b8db-4589-9cbd-d32d701c1b7e.png)
@@ -93,7 +87,6 @@ Changed background colour of dashboard to match other pages.
 
 ![image](static/images/img.png)
 
-
 Note: Dashboard pages are zoomed out to 75%
 
 ## Steps to Deploy in Azure App Service
@@ -101,7 +94,6 @@ Note: Dashboard pages are zoomed out to 75%
 ### Using static deployment
 
 To be updated soon...
-
 
 ### Using Dynamic and CI/CD deployment
 

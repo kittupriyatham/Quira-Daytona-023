@@ -13,7 +13,7 @@ Hello everyone, this is a machine learning model deployment project where we hav
     
 ### Authors :
     
-    Tejaswi Talluru - Machine Learning Model.
+    Tejaswi Talluru - Machine Learning Model in jupyter notebook.
     Krishna Priyatham Potluri - Flask Web Project and Azure Deployment.  (Myself)
     
 ### Contributors :
